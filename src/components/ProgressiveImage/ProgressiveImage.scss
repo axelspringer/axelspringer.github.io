@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+.progressiveImage {
+    &__container {
+        position: relative;
+        overflow: hidden;
+        font-size: 0;
+        height: 100%;
+
+        .fadeIn {
+            opacity: 1;
+        }
+    }
+
+    &__thumbnail {
+        position: relative;
+        z-index: -1;
+
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        filter: blur(20px);
+        background-position: center center;
+
+        &--background {
+            filter: none !important;
+            position: absolute;
+            top: 0;
+            z-index: -2
+        }
+
+        &--ratio {
+            padding-top: (2/3*100%);
+        }
+    }
+
+    &__original {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+        position: absolute;
+        top: 0;
+        z-index: 0;
+
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+    &__dummy {
+        display: none;
+    }
+}

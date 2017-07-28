@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.socials {
+    &__container {
+        
+    }
+
+    &__item {
+        color: $font-color-secondary;
+        padding: 0 6px;
+        transition: color .1s;
+
+        &:hover {
+            color: rgba(255,255,255,0.7);
+        }
+    }
+}

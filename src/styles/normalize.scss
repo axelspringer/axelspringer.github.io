@@ -1,0 +1,39 @@
+p {
+    margin: 0;
+    display: inline-block;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover, :focus {
+        text-decoration: underline;
+    }
+}
+
+img {
+    height: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}

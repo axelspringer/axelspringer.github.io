@@ -1,0 +1,16 @@
+:root:before {
+    content:  
+        url(static/thumbnails/work.jpg)
+        url(static/thumbnails/job1.jpg)
+        url(static/thumbnails/job2.jpg)
+        url(static/thumbnails/job3.jpg)
+        url(static/thumbnails/job4.jpg)
+        url(static/thumbnails/job5.jpg)
+        url(static/thumbnails/job6.jpg)
+        url(static/thumbnails/job7.jpg)
+        url(static/thumbnails/job8.jpg);         
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    width: 0;
+}

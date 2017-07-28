@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Socials component should render as expected 1`] = `
+<p
+  className="socials__container undefined"
+>
+  <a
+    className="socials__item"
+    href="https://www.xing.com/companies/axelspringerse"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-xing"
+    />
+  </a>
+  <a
+    className="socials__item"
+    href="https://de.linkedin.com/company/axel-springer-se"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-linkedin"
+    />
+  </a>
+  <a
+    className="socials__item"
+    href="https://www.instagram.com/axel_springer_karriere/"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-instagram"
+    />
+  </a>
+  <a
+    className="socials__item"
+    href="https://www.facebook.com/AxelSpringerKarriere/"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-facebook"
+    />
+  </a>
+</p>
+`;

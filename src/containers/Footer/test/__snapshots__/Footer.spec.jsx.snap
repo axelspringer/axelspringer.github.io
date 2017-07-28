@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render as expected 1`] = `
+<footer
+  className="footer__container"
+>
+  <div
+    className="footer__content"
+  >
+    <p
+      className="socials__container undefined"
+    >
+      <a
+        className="socials__item"
+        href="https://www.xing.com/companies/axelspringerse"
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-xing"
+        />
+      </a>
+      <a
+        className="socials__item"
+        href="https://de.linkedin.com/company/axel-springer-se"
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-linkedin"
+        />
+      </a>
+      <a
+        className="socials__item"
+        href="https://www.instagram.com/axel_springer_karriere/"
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-instagram"
+        />
+      </a>
+      <a
+        className="socials__item"
+        href="https://www.facebook.com/AxelSpringerKarriere/"
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-facebook"
+        />
+      </a>
+    </p>
+    <p
+      className="footer__links"
+    >
+      <a
+        href="http://www.axelspringer.de/artikel/Impressum_40386.html"
+      >
+        Impressum
+      </a>
+      <a
+        href="http://www.axelspringer.de/artikel/Hinweise-zum-Datenschutz_40410.html"
+      >
+        Hinweise zum Datenschutz
+      </a>
+    </p>
+  </div>
+</footer>
+`;

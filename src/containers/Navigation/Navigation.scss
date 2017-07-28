@@ -1,0 +1,285 @@
+@import '../../styles/variables.scss';
+
+.navigation{
+    &__container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        z-index: 10;
+
+        background: $background-color-primary;
+        border-bottom: 1px solid $gray;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+
+        box-sizing: border-box;
+        padding: 10px 40px;
+
+        &--dark {
+            background: $background-color-secondary;
+            border-color: $background-color-secondary;
+
+            .navigation {
+                 &__item {
+                    > a{
+                        color: $font-color-secondary;
+                    }
+
+                    border-color: $font-color-secondary;                     
+                 }
+            }
+        }
+
+        &--light {
+            background: $background-color-primary;
+            border-color: $gray;
+            
+            .navigation {
+                 &__item {
+                    > a{
+                        color: $font-color-primary;
+                    }
+
+                    border-color: $font-color-primary;                     
+                 }
+            }
+        }
+
+        &--alpha {
+            background: linear-gradient(#000, transparent); ;
+            border: 0;
+            box-shadow: none;
+            
+            .navigation {
+                 &__item {
+                    > a{
+                        color: $font-color-secondary;
+                    }
+
+                    border-color: $font-color-secondary;                     
+                 }
+            }
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        line-height: 1.2;
+    }
+
+    &__item {
+        flex-shrink: 0;
+        position: relative;
+
+        padding: 0 5px;
+        margin-right: 35px;
+
+        font-size: 16px;
+        white-space: nowrap;
+        text-transform: uppercase;
+
+        &:before {
+            content: '';
+            background-color: #777;
+            position: absolute;
+            height: 100%;
+            top: 0;
+            width: 1px;
+            right: -20px;
+        }
+
+        &:after {
+            content: '';
+            background-color: #ddd;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            left: 0;
+            height: 0%;
+            z-index: -1;
+            transition: .1s;
+        }
+
+        cursor: pointer;
+
+        &:last-child:before, &:first-child:before {
+            content: none;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &--logo {
+            font-size: 0;
+            margin-right: auto;
+            padding:    0;
+
+            &:after {
+                content: none;
+            }
+
+            transition: transform .2s;
+
+            &:hover {
+                transform: translateX(10px);
+            }
+        }
+
+        &--active {
+            font-weight: bold;
+        }
+
+        &:hover {
+            text-decoration: none;
+            
+            &:after {
+                height: 40%;
+            }
+        }
+    }
+
+    &__logo {
+        height: 30px;
+    }
+
+    &__toggle {
+        display: none;
+    }
+
+    @media screen and (max-width : 500px) {
+        &__container {
+            padding: 0px;
+        }
+
+        &__list {
+            flex-direction: column;
+
+            transition: height .3s;
+            height: 50px;
+
+            &.open {
+                background-color: $background-color-primary;
+                height: 129px;
+            }
+        }
+
+        &__item {
+            position: absolute;
+
+            left: 0;
+            width: 100%;
+            margin: 0;
+            padding: 10px 20px;
+
+            text-align: right;
+            background-color: #fff;
+            bottom: 0;
+
+            &:nth-child(2) {
+                bottom: 39px;
+            }
+
+            &:nth-child(3) {
+                bottom: 0px;
+            }
+
+            &:before, &:after {
+                content: none;
+            }
+
+            &--logo {
+                position: static !important;
+                opacity: 1 !important;
+                z-index: 3;
+
+                position: relative;
+
+                text-align: left;
+                border-bottom: 1px solid $gray;
+                box-shadow: 0 0 5px rgba(0,0,0,0.2);
+            }
+
+            &:last-child {
+                border: 0;
+            }
+
+            &:hover {
+                transform: none;
+            }
+        }
+
+        &__toggle {
+            display: block;
+            position: absolute;
+            width: auto;
+            right: 0px;
+            height: 50px;
+            top: 0px;
+            z-index: 4;
+            padding: 0 20px;
+
+            > span {
+                display: block;
+                position: relative;
+                top: 47%;
+                left: 0;
+                width: 30px;
+                height: 6%;
+
+                background-color: #000;
+                font-size: 0;
+
+                transition: background-color 0s .2s;
+
+                &:before, &:after {
+                    content: '';
+
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #000;
+
+                    transition: top .2s .2s, bottom .2s .2s, transform .2s 0s;
+                }
+
+                &:before {
+                    top: -300%;
+                }
+
+                &:after {
+                    bottom: -300%;
+                }
+            }
+
+            &.open {
+                > span {
+                    background: 0;
+                    transition: background-color .0s .2s;
+
+                    &:before, &:after {
+                        transition: top .2s, bottom .2s, transform .2s .2s;
+                    }
+
+                    &:before {
+                        top: 0;
+                        transform: rotate(45deg);
+                    }
+
+                    &:after {
+                        bottom: 0;
+                        transform: rotate(-45deg);                        
+                    }
+                }
+            }
+        }
+    }
+}

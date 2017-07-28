@@ -1,0 +1,540 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render as expected 1`] = `
+<article
+  className="app__container"
+>
+  <nav
+    className="navigation__container"
+  >
+    <div
+      className="navigation__toggle"
+      onClick={[Function]}
+    >
+      <span>
+        menü
+      </span>
+    </div>
+    <ul
+      className="navigation__list"
+    >
+      <li
+        className="navigation__item navigation__item--logo"
+        onClick={[Function]}
+      >
+        <img
+          alt="Axel Springer SE Logo"
+          className="navigation__logo"
+          src="static/as_logo.svg"
+        />
+      </li>
+      <li
+        className="navigation__item"
+        onClick={[Function]}
+      >
+        Our Projects
+      </li>
+      <li
+        className="navigation__item"
+        onClick={[Function]}
+      >
+        Jobs
+      </li>
+    </ul>
+  </nav>
+  <header
+    className="hero__container"
+    id="home"
+  >
+    <ProgressiveImage
+      className="hero__image"
+      src="static/work.jpg"
+      thumbnail="static/thumbnails/work.jpg"
+    />
+    <div
+      className="hero__imageContainer"
+    >
+      <div
+        className="hero__bottomContainer"
+      >
+        <p
+          className="hero__bottomText"
+        >
+          There‘s more to it.
+        </p>
+        <p
+          className="socials__container hero__socials"
+        >
+          <a
+            className="socials__item"
+            href="https://www.xing.com/companies/axelspringerse"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-xing"
+            />
+          </a>
+          <a
+            className="socials__item"
+            href="https://de.linkedin.com/company/axel-springer-se"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-linkedin"
+            />
+          </a>
+          <a
+            className="socials__item"
+            href="https://www.instagram.com/axel_springer_karriere/"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-instagram"
+            />
+          </a>
+          <a
+            className="socials__item"
+            href="https://www.facebook.com/AxelSpringerKarriere/"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-facebook"
+            />
+          </a>
+        </p>
+      </div>
+    </div>
+    <p
+      className="hero__text"
+    >
+      Nowadays the largest source of revenue at 
+      <strong>
+        Axel Springer
+      </strong>
+       and it’s companies is the digital business. Hence, sharing of best practices and practical solutions plays a huge role in our everyday work. That’s why we’re going public with some of our projects here. 
+      <strong>
+        We love the idea of cooperating inhouse and with everyone outside who can benefit from the things we’ve built.
+      </strong>
+       Even better if you join us in discussion and development!
+    </p>
+  </header>
+  <section
+    className="projects__container"
+    id="projects"
+  >
+    <h2
+      className="sectionHeading projects__heading"
+    >
+      Projects
+    </h2>
+    <div
+      className="projects__tiles"
+    >
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            href={undefined}
+          >
+            Lorem ipsum dolor sit amet
+          </a>
+          <img
+            className="projectTile__logo"
+            src=""
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Erklärvideo
+        </button>
+        <div
+          className="gitHubStats__container"
+          onClick={[Function]}
+        >
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-code"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-code-fork"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-star"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-users"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            href={undefined}
+          >
+            consetetur sadipscing elitr
+          </a>
+          <img
+            className="projectTile__logo"
+            src=""
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Erklärvideo
+        </button>
+        <div
+          className="gitHubStats__container"
+          onClick={[Function]}
+        >
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-code"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-code-fork"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-star"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-users"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            href={undefined}
+          >
+            diam nonumy eirmod tempor invidunt
+          </a>
+          <img
+            className="projectTile__logo"
+            src=""
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Erklärvideo
+        </button>
+        <div
+          className="gitHubStats__container"
+          onClick={[Function]}
+        >
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-code"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-code-fork"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-star"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+          <div
+            className="gitHubStats__stat"
+          >
+            <p
+              className="gitHubStats__icon"
+            >
+              <span
+                aria-hidden={true}
+                className="fa fa-users"
+              />
+            </p>
+            <p
+              className="gitHubStats__description"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="jobs__container"
+    id="jobs"
+  >
+    <div
+      className="jobs__headingContainer"
+    >
+      <h2
+        className="sectionHeading jobs__heading"
+      >
+        Jobs
+      </h2>
+    </div>
+    <Gallery />
+    <div
+      className="jobs__advertisement"
+    >
+      <p
+        className="jobs__adHeading"
+      >
+        Want to code with us?
+      </p>
+      <p
+        className="jobs__adSubheading"
+      >
+        We offer many vacancies in IT!
+      </p>
+    </div>
+    <a
+      className="jobs__buttonJobs button"
+      href="https://career.axelspringer.com/"
+      onClick={[Function]}
+    >
+      Find your new job
+    </a>
+  </section>
+  <footer
+    className="footer__container"
+  >
+    <div
+      className="footer__content"
+    >
+      <p
+        className="socials__container undefined"
+      >
+        <a
+          className="socials__item"
+          href="https://www.xing.com/companies/axelspringerse"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-xing"
+          />
+        </a>
+        <a
+          className="socials__item"
+          href="https://de.linkedin.com/company/axel-springer-se"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-linkedin"
+          />
+        </a>
+        <a
+          className="socials__item"
+          href="https://www.instagram.com/axel_springer_karriere/"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-instagram"
+          />
+        </a>
+        <a
+          className="socials__item"
+          href="https://www.facebook.com/AxelSpringerKarriere/"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-facebook"
+          />
+        </a>
+      </p>
+      <p
+        className="footer__links"
+      >
+        <a
+          href="http://www.axelspringer.de/artikel/Impressum_40386.html"
+        >
+          Impressum
+        </a>
+        <a
+          href="http://www.axelspringer.de/artikel/Hinweise-zum-Datenschutz_40410.html"
+        >
+          Hinweise zum Datenschutz
+        </a>
+      </p>
+    </div>
+  </footer>
+</article>
+`;

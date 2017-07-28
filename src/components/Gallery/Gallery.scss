@@ -1,0 +1,27 @@
+.gallery {
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .progressiveImage__original {
+            transition: opacity 1s, filter .3s;
+
+            &:hover {
+                filter: brightness(100%) !important;
+            }
+        }
+
+        &:hover .progressiveImage__original {
+            filter: brightness(80%);
+        }
+    }
+
+
+
+    &__image {
+        width: 25%;
+        @media screen and (max-width: 750px) {
+            width: 50%;
+        }
+    }
+}

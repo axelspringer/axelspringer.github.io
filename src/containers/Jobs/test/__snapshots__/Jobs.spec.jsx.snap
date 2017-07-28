@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jobs component should render as expected 1`] = `
+<section
+  className="jobs__container"
+  id="jobs"
+>
+  <div
+    className="jobs__headingContainer"
+  >
+    <h2
+      className="sectionHeading jobs__heading"
+    >
+      Jobs
+    </h2>
+  </div>
+  <Gallery />
+  <div
+    className="jobs__advertisement"
+  >
+    <p
+      className="jobs__adHeading"
+    >
+      Want to code with us?
+    </p>
+    <p
+      className="jobs__adSubheading"
+    >
+      We offer many vacancies in IT!
+    </p>
+  </div>
+  <a
+    className="jobs__buttonJobs button"
+    href="https://career.axelspringer.com/"
+    onClick={[Function]}
+  >
+    Find your new job
+  </a>
+</section>
+`;

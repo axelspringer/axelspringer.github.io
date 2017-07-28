@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component should render as expected 1`] = `
+<nav
+  className="navigation__container"
+>
+  <div
+    className="navigation__toggle"
+    onClick={[Function]}
+  >
+    <span>
+      menü
+    </span>
+  </div>
+  <ul
+    className="navigation__list"
+  >
+    <li
+      className="navigation__item navigation__item--logo"
+      onClick={[Function]}
+    >
+      <img
+        alt="Axel Springer SE Logo"
+        className="navigation__logo"
+        src="static/as_logo.svg"
+      />
+    </li>
+    <li
+      className="navigation__item"
+      onClick={[Function]}
+    >
+      Our Projects
+    </li>
+    <li
+      className="navigation__item"
+      onClick={[Function]}
+    >
+      Jobs
+    </li>
+  </ul>
+</nav>
+`;
