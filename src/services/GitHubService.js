@@ -2,11 +2,11 @@ import HttpService from './HttpService';
 
 class GitHubService {
     constructor() {
-        this.baseUrl = '/cached-api';
+        this.BASE_URL = 'https://asideas-github-cache.herokuapps.com';
     }
 
     getStats(owner, project) {
-        return HttpService.get(this.baseUrl + '/' + owner + '/' + project);
+        return HttpService.get(this.BASE_URL + '/' + owner + '/' + project);
     }
 }
 
