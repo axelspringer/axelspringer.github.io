@@ -2,7 +2,7 @@ import HttpService from './HttpService';
 
 class GitHubService {
     constructor() {
-        this.BASE_URL = 'https://asideas-github-cache.herokuapps.com';
+        this.BASE_URL = 'https://asideas-github-cache.herokuapp.com';
     }
 
     getStats(owner, project) {
