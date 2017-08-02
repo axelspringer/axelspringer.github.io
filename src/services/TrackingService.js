@@ -1,7 +1,7 @@
 import PiwikTracker from 'piwik-tracker';
 
-const BASE_URL = 'https://ideas.piwik.pro'
-const SITE_ID = '29'
+const BASE_URL = 'https://ideas.piwik.pro';
+const SITE_ID = '29';
 
 class TrackingService {
     constructor() {

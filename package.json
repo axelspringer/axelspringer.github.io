@@ -45,7 +45,8 @@
     "style-loader": "0.13.1",
     "svg-react-loader": "^0.4.3",
     "webpack": "2.2.1",
-    "webpack-dev-server": "2.2.0"
+    "webpack-dev-server": "2.2.0",
+    "whatwg-fetch": "^2.0.3"
   },
   "jest": {
     "testPathIgnorePatterns": [

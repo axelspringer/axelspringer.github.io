@@ -22,7 +22,9 @@ export default class ProjectTile extends Component {
             let state = this.state;
             state.stats = stats;
             this.setState(state);
-        });
+        }).catch((err) => {
+            console.log('failed', err);
+        })
     }
 
     openVideo() {

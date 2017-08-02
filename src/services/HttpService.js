@@ -1,25 +1,29 @@
+import 'whatwg-fetch';
+
 class HttpService {
     constructor() {
 
     }
 
-    get(url) {
-        return new Promise((resolve, reject) => {
-            var request = new XMLHttpRequest();
-            request.open('GET', url, true);
-            request.send();
+    checkStatus(response) {
+        if (response.status >= 200 && response.status < 300) {
+            return response
+        } else {
+            var error = new Error(response.statusText);
+            error.response = response;
+            throw error
+        }
+    }
 
-            request.onreadystatechange = () => {
-                if (request.readyState == 4) {
-                    if (request.status == 200) {
-                        var response = JSON.parse(request.responseText);
-                        resolve(response);
-                    } else {
-                        reject(request.status, request.statusText)
-                    }
-                }
-            };
-        });
+    parseJSON(response) {
+        console.log(response);
+        return response.json();
+    }
+
+    get(url) {
+        return fetch(url)
+            .then(this.checkStatus)
+            .then(this.parseJSON);
     }
 }
 
