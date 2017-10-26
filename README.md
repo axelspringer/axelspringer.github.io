@@ -5,3 +5,6 @@ This is the Landing Page for Axel Springer SE open source initiative.
 ## local development
 
  * ```npm run start``` will start a local dev server at http://localhost:8080
+
+## confugure projects
+in /src/data/projects.js
