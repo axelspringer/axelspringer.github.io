@@ -1,8 +1,22 @@
-#language: node_js
-#node_js:
-#- '6'
-#deploy:
-#  provider: heroku
-#  api_key:
-#    secure: GdD0i3z+CkSEGPZOEJ5GIrD7FqPBV1UwB1K/JMUr8ehQuCjubD399HpYhPnX9dXCmz80bSeKrwvvlkiHPthiL71k0cKecua1Z7PwNZpR9YJCA2sCPKt3cU0IDrkEobViYsIhLf2GPU2HZuHEOKvlHi1H3cw4KuA7bZND+6NBbMtf7XC4VS+l8DLpo3ApthKlkIabN7M6Y+wnx4qWprvkub1XxLow4q73mG5MAG8NB2OpLIGeR3CvPssBNzj6RK3PpPm9nS8WgloOK+9Z0boQt9QyaQfbr0L2KZgxP1079hqEDDQqkuAr010JDfmpPYj6tYnMOObLnjswEoZEnjQj2R6y+HIAEWx85Y5oWsvBXUi+vhv5FDOF4LycvYU/xJuOsULRSkjHCFeHv/ERcH8mooF29eLPcvi8a9IvRpHt2l27mTOrY64z2PL3FpK/6bbfOnXI5o/HAQEvWrvIMpytEUn/e4Aio2ehlGs94PS1bH/AUwUPu3fyR96WkIVGpOF/2iI8QY+ZNhAPXEy6qxeV36nSV70nkyXR7i0yIDbaIdx348fK4I7MKDtWp81fr3Se4sTNKYs1ZnoF51wlAvn8AkqdXYILUkQMAJfSJkOiTvUOVPJvBI3E1LGlPiZSzIH2G42aPBxJ4o9v8Iy5IEByBADZPy1kInUgBOd2W2Qa0Ok=
-#  app: axelspringer-githubpages
+language: node_js
+node_js:
+- '6'
+
+env:
+  global:
+    secure: eKnf6QZyQvilqid1j3/2o69waBpe6ixBErVhkXtWAnLGTFwg6XFORjIqtIGucCt6KPV/7E+pLUMKRWMmCfNGbX0GUDj4SFknpxK+/LsgnSdgOEY2lG0K092ApMW9wzpW/OellArCjQYc8PEKamGdzE98QuSTMVzcnLWOFz4a83KLa4fDXzF1RCCXoQtZvM1gDCP307QuRLEFUvRIoRrY9cKov8s4W9yKESi67WILzN+K7dF6KI3IR7YtVCGk4dThfHjxjFnOFiuL0y6Z2xiUWYcfv8nLP60VOtuygzCCNuoaahFmJYDsb0mOEO5kH4zvMZJdeiVYDBiy403ayMggDafAOWFiSal7C4XEsFmeUqDXTsA6ZVsGYxcxC3oOAB1bXc4Dzmb4802TeyvUSY13pea5F/l+N1IbDUrQqMLj3FSZLu9PmLWnodQ6i5MhSxEMLd56UHFB2T9HsHs8rljxzCDK7+8NUZFEvFIk/cixcTPPAGp6yJGdoSXj4wOEn4r7iUuhZKzUl0GekPG1mbNUw6eZQVXdhyc3mRsQkIKbPm2wYfblS8BlEGT9rd7bUUQqJotExbyzOg54vhiB0NVG9oH4N9Qq0mvOBLfmrEh/FWzFSqDOLuRv0OvSfgVAF7gqHIgTqw+dUvBDkyfYkcytmeDRZCCAmI9SO3iNP5nJkHs=
+
+branches:
+  only:
+  - develop
+
+script:
+- npm install
+- npm run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
