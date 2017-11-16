@@ -1,5 +1,11 @@
 export default [
     {
+        "title": "polymorphia",
+        "description": "A very fast POJO codec for MongoDB (used in conjunction with the Mongo Java Driver) that handles generic types as well as polymorphic class hierarchies",
+        "videoUrl": "",
+        "ownerId": "bild",
+        "projectId": "polymorphia"
+    },{
         "title": "crowdsource",
         "description": "a collaborative crowd sourcing and funding tool using virtual currency",
         "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
