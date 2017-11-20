@@ -10,6 +10,10 @@ branches:
   only:
   - develop
 
+branches:
+  except:
+  - master
+
 script:
 - npm install
 - npm run build
