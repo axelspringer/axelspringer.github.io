@@ -9,8 +9,6 @@ env:
 branches:
   only:
   - develop
-
-branches:
   except:
   - master
 

@@ -1,34 +1,34 @@
 export default [
     {
-        "imgUrl": "static/job1.jpg",
-        "thumbnail": "static/thumbnails/job1.jpg"
+        "imgUrl": "static/jobs_04.png",
+        "thumbnail": "static/thumbnails/jobs_04.png"
     },
     {
-        "imgUrl": "static/job2.jpg",
-        "thumbnail": "static/thumbnails/job2.jpg"
+        "imgUrl": "static/jobs_08.png",
+        "thumbnail": "static/thumbnails/jobs_08.png"
     },
     {
-        "imgUrl": "static/job3.jpg",
-        "thumbnail": "static/thumbnails/job3.jpg"
+        "imgUrl": "static/jobs_01.png",
+        "thumbnail": "static/thumbnails/jobs_01.png"
     },
     {
-        "imgUrl": "static/job4.jpg",
-        "thumbnail": "static/thumbnails/job4.jpg"
+        "imgUrl": "static/jobs_03.png",
+        "thumbnail": "static/thumbnails/jobs_03.png"
     },
     {
-        "imgUrl": "static/job5.jpg",
-        "thumbnail": "static/thumbnails/job5.jpg"
+        "imgUrl": "static/jobs_02.png",
+        "thumbnail": "static/thumbnails/jobs_02.png"
     },
     {
-        "imgUrl": "static/job6.jpg",
-        "thumbnail": "static/thumbnails/job6.jpg"
+        "imgUrl": "static/jobs_05.png",
+        "thumbnail": "static/thumbnails/jobs_05.png"
     },
     {
-        "imgUrl": "static/job7.jpg",
-        "thumbnail": "static/thumbnails/job7.jpg"
+        "imgUrl": "static/jobs_07.png",
+        "thumbnail": "static/thumbnails/jobs_07.png"
     },
     {
-        "imgUrl": "static/job8.jpg",
-        "thumbnail": "static/thumbnails/job8.jpg"
+        "imgUrl": "static/jobs_06.png",
+        "thumbnail": "static/thumbnails/jobs_06.png"
     }
 ]

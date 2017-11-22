@@ -22,7 +22,7 @@ exports[`Projects component should render as expected 1`] = `
         <a
           href={undefined}
         >
-          Lorem ipsum dolor sit amet
+          polymorphia
         </a>
         <img
           className="projectTile__logo"
@@ -32,7 +32,7 @@ exports[`Projects component should render as expected 1`] = `
       <p
         className="projectTile__description"
       >
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+        A very fast POJO codec for MongoDB (used in conjunction with the Mongo Java Driver) that handles generic types as well as polymorphic class hierarchies
       </p>
       <button
         className="projectTile__videoButton"
@@ -124,7 +124,7 @@ exports[`Projects component should render as expected 1`] = `
         <a
           href={undefined}
         >
-          consetetur sadipscing elitr
+          crowdsource
         </a>
         <img
           className="projectTile__logo"
@@ -134,7 +134,7 @@ exports[`Projects component should render as expected 1`] = `
       <p
         className="projectTile__description"
       >
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+        a collaborative crowd sourcing and funding tool using virtual currency
       </p>
       <button
         className="projectTile__videoButton"
@@ -226,7 +226,7 @@ exports[`Projects component should render as expected 1`] = `
         <a
           href={undefined}
         >
-          diam nonumy eirmod tempor invidunt
+          ideas-dash
         </a>
         <img
           className="projectTile__logo"
@@ -236,7 +236,211 @@ exports[`Projects component should render as expected 1`] = `
       <p
         className="projectTile__description"
       >
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
+        dashboard / team monitor for software development teams
+      </p>
+      <button
+        className="projectTile__videoButton"
+        onClick={[Function]}
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-play-circle"
+          style={
+            Object {
+              "fontSize": "20px",
+            }
+          }
+        />
+         Erklärvideo
+      </button>
+      <div
+        className="gitHubStats__container"
+        onClick={[Function]}
+      >
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-code"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-code-fork"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-star"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-users"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="projectTile__container"
+    >
+      <h3
+        className="projectTile__heading"
+      >
+        <a
+          href={undefined}
+        >
+          semaeval
+        </a>
+        <img
+          className="projectTile__logo"
+          src=""
+        />
+      </h3>
+      <p
+        className="projectTile__description"
+      >
+        Python package to evaluate the quality of semantic engines
+      </p>
+      <button
+        className="projectTile__videoButton"
+        onClick={[Function]}
+      >
+        <span
+          aria-hidden={true}
+          className="fa fa-play-circle"
+          style={
+            Object {
+              "fontSize": "20px",
+            }
+          }
+        />
+         Erklärvideo
+      </button>
+      <div
+        className="gitHubStats__container"
+        onClick={[Function]}
+      >
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-code"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-code-fork"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-star"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+        <div
+          className="gitHubStats__stat"
+        >
+          <p
+            className="gitHubStats__icon"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-users"
+            />
+          </p>
+          <p
+            className="gitHubStats__description"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="projectTile__container"
+    >
+      <h3
+        className="projectTile__heading"
+      >
+        <a
+          href={undefined}
+        >
+          tech-radar
+        </a>
+        <img
+          className="projectTile__logo"
+          src=""
+        />
+      </h3>
+      <p
+        className="projectTile__description"
+      >
+        The Tech Radar is a tool to inspire and support teams to pick the best technologies for new projects
       </p>
       <button
         className="projectTile__videoButton"

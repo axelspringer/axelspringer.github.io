@@ -8,57 +8,57 @@ exports[`Gallery component should render as expected 1`] = `
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job1.jpg"
-    thumbnail="static/thumbnails/job1.jpg"
+    src="static/jobs_04.png"
+    thumbnail="static/thumbnails/jobs_04.png"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job2.jpg"
-    thumbnail="static/thumbnails/job2.jpg"
+    src="static/jobs_08.png"
+    thumbnail="static/thumbnails/jobs_08.png"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job3.jpg"
-    thumbnail="static/thumbnails/job3.jpg"
+    src="static/jobs_01.png"
+    thumbnail="static/thumbnails/jobs_01.png"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job4.jpg"
-    thumbnail="static/thumbnails/job4.jpg"
+    src="static/jobs_03.png"
+    thumbnail="static/thumbnails/jobs_03.png"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job5.jpg"
-    thumbnail="static/thumbnails/job5.jpg"
+    src="static/jobs_02.png"
+    thumbnail="static/thumbnails/jobs_02.png"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job6.jpg"
-    thumbnail="static/thumbnails/job6.jpg"
+    src="static/jobs_05.png"
+    thumbnail="static/thumbnails/jobs_05.png"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job7.jpg"
-    thumbnail="static/thumbnails/job7.jpg"
+    src="static/jobs_07.png"
+    thumbnail="static/thumbnails/jobs_07.png"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/job8.jpg"
-    thumbnail="static/thumbnails/job8.jpg"
+    src="static/jobs_06.png"
+    thumbnail="static/thumbnails/jobs_06.png"
   />
 </div>
 `;
