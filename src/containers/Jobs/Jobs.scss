@@ -64,13 +64,20 @@
         font-size: 24px;
         margin: 0 20px;
 
+        color: white;
         transition: .2s;
-        
-        &:hover {
-            color: #0080C8;
+
+        &.button {
+            font-weight: normal;
+            border: none;
+            background-color: #0080C8;
         }
 
-        @media screen and (max-width : 500px) {
+        &:hover {
+            background-color: transparent;
+            color: black;
+        }
+        @media screen and (max-width: 500px) {
             padding: 10px 15px;
             margin: 0 10px;
         }
