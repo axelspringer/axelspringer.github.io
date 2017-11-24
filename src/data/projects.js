@@ -32,10 +32,10 @@ export default [
         "ownerId": "axelspringer",
         "projectId": "tech-radar"
     }, {
-        "title": "Open Source LandingPage",
+        "title": "axelspringer.github.io",
         "description": "This project is the landing page for the open source initiative of Axel Springer SE",
         "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
         "ownerId": "axelspringer",
-        "projectId": "os-landingpage"
+        "projectId": "axelspringer.github.io"
     }
 ]
