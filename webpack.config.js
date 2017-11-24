@@ -6,7 +6,8 @@ module.exports = (env) => {
     const plugins = [
         new CopyWebpackPlugin([
             { from: 'src/static', to: 'static' },
-            { from: 'src/styles/preload.css', to: 'preload.css' }
+            { from: 'src/styles/preload.css', to: 'preload.css' },
+            { from: 'README.md', to: 'README.md' }
         ])
     ];
 
