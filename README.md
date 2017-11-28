@@ -4,6 +4,8 @@
 
 [axelspringer.github.io](https://axelspringer.github.io) is the landing page for the open source initiative of Axel Springer SE and provides an overview of Axel Springer’s open source projects as well as current job offers. If you are employed at Axel Springer or one of its subsidiary companies and have created an awesome open source project you’d like to promote and share with your colleagues as well as with people outside the boundaries of Axel Springer, you’re welcome to publish your project on [axelspringer.github.io](https://axelspringer.github.io). For more details on how to add your project to the website or contribute new features, please read the [How to contribute](#how-to-contribute) section.
 
+For general guidelines and information on how to publish open source projects or contribute to existing repositories at Axel Springer, please read the [Open Source Guide](https://github.com/axelspringer/axelspringer.github.io/blob/develop/OPEN-SOURCE-GUIDE.md#publish-your-project-at-githubcomaxelspringer).
+
 ## How to contribute
 
 ### Local Development
