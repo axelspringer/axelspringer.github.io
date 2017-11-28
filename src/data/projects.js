@@ -3,7 +3,7 @@ export default [
         "title": "polymorphia",
         "description": "A very fast POJO codec for MongoDB (used in conjunction with the Mongo Java Driver) that handles generic types as well as polymorphic class hierarchies",
         "videoUrl": "",
-        "ownerId": "axelspringer",
+        "ownerId": "bild",
         "projectId": "polymorphia"
     },{
         "title": "crowdsource",
