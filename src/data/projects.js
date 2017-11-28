@@ -9,14 +9,14 @@ export default [
         "title": "crowdsource",
         "description": "a collaborative crowd sourcing and funding tool using virtual currency",
         "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
-        "ownerId": "axelspringer",
+        "ownerId": "asideas",
         "projectId": "crowdsource"
     },
     {
         "title": "ideas-dash",
         "description": "dashboard / team monitor for software development teams",
         "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
-        "ownerId": "axelspringer",
+        "ownerId": "asideas",
         "projectId": "ideas-dash"
     },
     {
@@ -29,7 +29,7 @@ export default [
         "title": "tech-radar",
         "description": "The Tech Radar is a tool to inspire and support teams to pick the best technologies for new projects",
         "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
-        "ownerId": "axelspringer",
+        "ownerId": "bild",
         "projectId": "tech-radar"
     }, {
         "title": "axelspringer.github.io",
