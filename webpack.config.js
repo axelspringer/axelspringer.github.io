@@ -8,6 +8,7 @@ module.exports = (env) => {
             { from: 'src/static', to: 'static' },
             { from: 'src/styles/preload.css', to: 'preload.css' },
             { from: 'README.md', to: 'README.md' }
+            { from: 'OPEN-SOURCE-GUIDE.md', to: 'OPEN-SOURCE-GUIDE.md' }
         ])
     ];
 
