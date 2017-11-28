@@ -10,7 +10,7 @@ export default [
     },{
         "title": "crowdsource",
         "description": "a collaborative crowd sourcing and funding tool using virtual currency",
-        "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "asideas",
         "projectId": "crowdsource",
@@ -19,7 +19,7 @@ export default [
     {
         "title": "ideas-dash",
         "description": "dashboard / team monitor for software development teams",
-        "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "asideas",
         "projectId": "ideas-dash",
@@ -28,7 +28,7 @@ export default [
     {
         "title": "semaeval",
         "description": "Python package to evaluate the quality of semantic engines",
-        "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "asideas",
         "projectId": "semaeval",
@@ -36,7 +36,7 @@ export default [
     }, {
         "title": "tech-radar",
         "description": "The Tech Radar is a tool to inspire and support teams to pick the best technologies for new projects",
-        "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "bild",
         "projectId": "tech-radar",
@@ -44,7 +44,7 @@ export default [
     }, {
         "title": "axelspringer.github.io",
         "description": "This project is the landing page for the open source initiative of Axel Springer SE",
-        "videoUrl": "https://www.youtube.com/watch?v=7hbZAEqHsOY",
+        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
         "ownerId": "axelspringer",
         "ownerLogo": "axelspringer",
         "projectId": "axelspringer.github.io",
