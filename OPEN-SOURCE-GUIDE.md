@@ -4,11 +4,11 @@ Axel Springer's Open Source Guide
 This README supports developers and creative minds who intend to openly share their work by providing guidelines for publishing open source software at Axel Springer SE.
 
 ## Table of Content
-_______________
+
 
 1 [Should I open source my Project?](#should-i-open-source-my-project)
 
-1.1	[What’s so great about open source?](#what’s-so-great-about-open-source)
+1.1	[What’s so great about open source?](#whats-so-great-about-open-source)
 
 1.2	[What to open source?](#what-to-open-source)
 
@@ -23,7 +23,7 @@ _______________
 2.2	[Choose a licence](#choose-a-licence)
 
 
-2.3	[Publish your project at github.com/axelspringer](#publish-your-project-at-github.com/axelspringer)
+2.3	[Publish your project at github.com/axelspringer](#publish-your-project-at-githubcomaxelspringer)
 
 2.4 [Promote your project](#promote-your-project)
 
@@ -43,26 +43,26 @@ We’d like to encourage you to share projects that...
 - … include a licence (for details see [“Licencing”](#licencing))
 
 ### What to inner source?
---In contrary to open source projects, inner source software is exclusively shared within the company. We are currently working on a guide that is meant to support you as a developer at Axel Springer to share your code with all of your colleagues. Once it is ready, we’ll provide a separate README and a link right here.
+In contrary to open source projects, inner source software is exclusively shared within the company. We are currently working on a guide that is meant to support you as a developer at Axel Springer to share your code with all of your colleagues. Once it is ready, we’ll provide a separate README and a link right here.
 
 ### What NOT to open source?
 
 You shouldn’t open source your project if...
 - ... it doesn’t work / isn’t useful outside the Axel Springer environment, e.g. because it’s dependent upon Axel Springer-specific systems
-- neither you nor any other developer intends to maintain the project and serve as a contact person in the long run
-- it contains confidential source code or customer data
-- you risk giving away specific knowledge that provides a competitive advantage or Unique Selling Point (USP) for Axel Springer
+- ... neither you nor any other developer intends to maintain the project and serve as a contact person in the long run
+- ... it contains confidential source code or customer data
+- ... you risk giving away specific knowledge that provides a competitive advantage or Unique Selling Point (USP) for Axel Springer
 
 ## How to open source a project
 
 ### Prepare your project
 
-##### Provide a clear and comprehensive README
+#### Provide a clear and comprehensive README
 
 A good README is key to any open source project. If no README exists, any potential contributor or user is forced to deep-dive into your code to understand what the project is about, which is an absolute showstopper.  
-Great templates can be found at:  [Zalando README template](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md)) or take a look at[this README checklist](https://github.com/cfpb/open-source-project-template)
+Great templates can be found at:  [Zalando README template](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md)) or take a look at [this README checklist](https://github.com/cfpb/open-source-project-template)
 
-##### Review your code
+#### Review your code
 
 - Code style and quality?
   - Include automated code analysis, comment your code properly, etc.
@@ -71,11 +71,11 @@ Great templates can be found at:  [Zalando README template](https://github.com/z
 - Critical information?
   - Remember to not publish critical information like customer data, confidential source code or projects that are USPs for Axel Springer
 
-##### Define maintainers
+#### Define maintainers
 
 Maintainers are responsible for the project and they should be the only ones allowed to merge Requests. Most importantly, they are the ones that will be contacted if there are any questions or contribution requests regarding the product, so they should be prompt and responsive and reply to any messages at least within 3 days.
 
-##### Missing Features?
+#### Missing Features?
 
 If you are thinking of some new features but don’t have time to code them yourself, just write a description of what you are thinking of and publish it, some other developers might be interested in collaborating and implementing the features.
 
