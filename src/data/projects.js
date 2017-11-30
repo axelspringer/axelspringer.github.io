@@ -10,7 +10,7 @@ export default [
     },{
         "title": "crowdsource",
         "description": "a collaborative crowd sourcing and funding tool using virtual currency",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "asideas",
         "projectId": "crowdsource",
@@ -19,7 +19,7 @@ export default [
     {
         "title": "ideas-dash",
         "description": "dashboard / team monitor for software development teams",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "asideas",
         "projectId": "ideas-dash",
@@ -28,7 +28,7 @@ export default [
     {
         "title": "semaeval",
         "description": "Python package to evaluate the quality of semantic engines",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "asideas",
         "projectId": "semaeval",
@@ -36,7 +36,7 @@ export default [
     }, {
         "title": "tech-radar",
         "description": "The Tech Radar is a tool to inspire and support teams to pick the best technologies for new projects",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "axelspringer",
         "ownerLogo": "bild",
         "projectId": "tech-radar",
@@ -53,7 +53,7 @@ export default [
     {
         "title": "Carlos",
         "description": "A simple but flexible cache",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "Carlos",
@@ -62,7 +62,7 @@ export default [
     {
         "title": "ecr-cleaner",
         "description": "Deletes old images from ecr",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "ecr-cleaner",
@@ -71,7 +71,7 @@ export default [
     {
         "title": "react-web-component",
         "description": "Create Web Components with React",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "react-web-component",
@@ -80,7 +80,7 @@ export default [
     {
         "title": "PiedPiper",
         "description": "A small set of classes and functions to make easy use of Futures, Promises and async computation in general",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "PiedPiper",
@@ -89,7 +89,7 @@ export default [
     {
         "title": "LazyPages",
         "description": "A highly customizable library that helps you to show a scrollable list of view controllers synchronized with an index",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "LazyPages",
@@ -98,7 +98,7 @@ export default [
     {
         "title": "metrics-discovery",
         "description": "metrics-discovery can be used in a monitoring systems like nagios or zabbix to discover items on aws",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "metrics-discovery",
@@ -107,7 +107,7 @@ export default [
     {
         "title": "metrics-beaver",
         "description": "fetches metrics from cloudwatch",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "metrics-beaver",
@@ -116,7 +116,7 @@ export default [
     {
         "title": "aws-mfa-detector",
         "description": "Fetches all users from an aws account and returns the once which don't have activated MFA",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "aws-mfa-detector",
@@ -125,7 +125,7 @@ export default [
     {
         "title": "CleanAndroidCookbook",
         "description": "Set of Clean Android recipes using Kotlin, Dagger, RxJava, Databinding",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "CleanAndroidCookbook",
@@ -134,7 +134,7 @@ export default [
     {
         "title": "gradle-spring-boot-conventions-plugin",
         "description": "Best practices and conventions for developing Spring Boot microservices",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "gradle-spring-boot-conventions-plugin",
@@ -143,7 +143,7 @@ export default [
     {
         "title": "munch-bot",
         "description": "Is it worth going to the canteen today?",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "munch-bot",
@@ -152,7 +152,7 @@ export default [
     {
         "title": "GraphQLicious",
         "description": "A swift component with a DSL to declare GraphQL queries and to get string representations out of them",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
         "projectId": "GraphQLicious",
