@@ -46,7 +46,7 @@ export default [
         "description": "This project is the landing page for the open source initiative of Axel Springer SE",
         "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
         "ownerId": "axelspringer",
-        "ownerLogo": "axelspringer",
+        "ownerLogo": "asideas",
         "projectId": "axelspringer.github.io",
         "language": "node.js"
     },
@@ -96,12 +96,12 @@ export default [
         "language": "Swift"
     },
     {
-        "title": "LazyPages",
-        "description": "LazyPages can be used in a monitoring systems like nagios or zabbix to discover items on aws",
+        "title": "metrics-discovery",
+        "description": "metrics-discovery can be used in a monitoring systems like nagios or zabbix to discover items on aws",
         "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
         "ownerId": "WeltN24",
         "ownerLogo": "WeltN24",
-        "projectId": "LazyPages",
+        "projectId": "metrics-discovery",
         "language": "GO"
     },
     {
