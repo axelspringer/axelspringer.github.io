@@ -18,7 +18,7 @@ export default (props) => {
         <div className='gitHubStats__container' onClick={openRepo.bind(this)}>
             <div className='gitHubStats__stat'>
                 <p className='gitHubStats__icon'><FontAwesome name='code' /></p>
-                <p className='gitHubStats__description'>{props.stats.name}</p>
+                <p className='gitHubStats__description'>{props.language}</p>
             </div>
             <div className='gitHubStats__stat'>
                 <p className='gitHubStats__icon'><FontAwesome name='code-fork' /></p>

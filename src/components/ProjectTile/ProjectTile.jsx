@@ -43,12 +43,14 @@ export default class ProjectTile extends Component {
         return (
             <div className='projectTile__container'>
                 <h3 className='projectTile__heading'>
-                    <a href={this.state.stats.html_url}>{this.props.projectData.title}</a>
-                    <img className='projectTile__logo' src={'/static/logo_' + this.props.projectData.ownerLogo + '.png'} />
+                    <a className='projectTile__title' href={this.state.stats.html_url}>{this.props.projectData.title}</a>
+                    <a href={this.props.projectData.ownerUrl} target="_blank">
+                        <img className='projectTile__logo' src={'/static/logo_' + this.props.projectData.ownerLogo + '.png'} />
+                    </a>
                 </h3>
                 <p className='projectTile__description'>{this.props.projectData.description}</p>
                 <button className='projectTile__videoButton' style={{display: this.props.projectData.videoUrl ? 'block' : 'none' }} onClick={this.openVideo.bind(this)}><FontAwesome name='play-circle' style={{ fontSize: '20px' }} /> Video Presentation</button>
-                <GitHubStats stats={this.state.stats} />
+                <GitHubStats stats={this.state.stats}  language={this.state.stats.language} />
             </div>
         );
     }
