@@ -50,7 +50,9 @@ export default class ProjectTile extends Component {
                 </h3>
                 <p className='projectTile__description'>{this.props.projectData.description}</p>
                 <button className='projectTile__videoButton' style={{display: this.props.projectData.videoUrl ? 'block' : 'none' }} onClick={this.openVideo.bind(this)}><FontAwesome name='play-circle' style={{ fontSize: '20px' }} /> Video Presentation</button>
-                <GitHubStats stats={this.state.stats}  language={this.state.stats.language} />
+                <div className='projectTile__content'>
+                    <GitHubStats stats={this.state.stats}  language={this.state.stats.language} />
+                </div>
             </div>
         );
     }

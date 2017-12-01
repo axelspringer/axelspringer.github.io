@@ -2,6 +2,8 @@
 
 .projectTile {
     &__container {
+        display: flex;
+        flex-direction: column;
         min-width: 300px;
         width: 30%;
         padding: 20px;
@@ -76,5 +78,13 @@
 
     &__github {
         background-color: #fff;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        align-items: flex-end;
+        margin-top: 5px;
     }
 }
