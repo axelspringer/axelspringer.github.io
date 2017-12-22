@@ -1,4 +1,14 @@
 export default [
+  {
+      "title": "baustelle",
+      "description": "Toolkit for deploying to all Amazon infrastructures",
+      "videoUrl": "",
+      "ownerId": "upday",
+      "ownerUrl": "http://upday.com",
+      "ownerLogo": "upday",
+      "projectId": "baustelle",
+      "language": "ruby"
+  },{
     {
         "title": "polymorphia",
         "description": "A very fast POJO codec for MongoDB (used in conjunction with the Mongo Java Driver) that handles generic types as well as polymorphic class hierarchies",
