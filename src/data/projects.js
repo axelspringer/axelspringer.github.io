@@ -28,12 +28,30 @@ export default [
         "language": ""
     },{
         "title": "Android Material Stepper",
-        "description": "This library allows to use Material steppers inside Android applications.y",
+        "description": "This library allows to use Material steppers inside Android applications.",
         "videoUrl": "",
         "ownerId": "stepstone-tech",
-        "ownerUrl": "http://axelspringerideas.de",
+        "ownerUrl": "http://stepstone.de",
         "ownerLogo": "StepStone",
         "projectId": "android-material-stepper",
+        "language": "Java"
+    },{
+        "title": "Android Material App Rating",
+        "description": "This library allows to use customized Rating Dialog inside applications.",
+        "videoUrl": "",
+        "ownerId": "stepstone-tech",
+        "ownerUrl": "http://stepstone.de",
+        "ownerLogo": "StepStone",
+        "projectId": "android-material-app-rating",
+        "language": "Kotlin"
+    },{
+        "title": "SonarQube ColdFusion Plugin",
+        "description": "A SonarQube plugin for analyzing ColdFusion code, based on the CFLint library.",
+        "videoUrl": "",
+        "ownerId": "stepstone-tech",
+        "ownerUrl": "http://stepstone.de",
+        "ownerLogo": "StepStone",
+        "projectId": "sonar-coldfusion",
         "language": "Java"
     },{
         "title": "ideas-dash",
