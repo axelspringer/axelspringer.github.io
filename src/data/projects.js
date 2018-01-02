@@ -26,8 +26,16 @@ export default [
         "ownerLogo": "asideas",
         "projectId": "crowdsource",
         "language": ""
-    },
-    {
+    },{
+        "title": "Android Material Stepper",
+        "description": "This library allows to use Material steppers inside Android applications.y",
+        "videoUrl": "",
+        "ownerId": "stepstone-tech",
+        "ownerUrl": "http://axelspringerideas.de",
+        "ownerLogo": "StepStone",
+        "projectId": "android-material-stepper",
+        "language": "Java"
+    },{
         "title": "ideas-dash",
         "description": "dashboard / team monitor for software development teams",
         "videoUrl": "",
