@@ -20,6 +20,7 @@ Send PULL-Requests if you want to contribute your ideas and alterations to the p
 ### Present your project on axelspringer.github.io
 
 If you want to present your open source project on the landing page, go to **/src/data/projects.js**, copy one of the existing projects within the file and simply alter the project-specific information. Title and project ID should be identical to the name of your GitHub project.
+To make your company's logo appear in the upper right corner of the project tile, upload your company's logo into the **"/src/static/"** folder. Name the image as followed: **"logo_[insertCompanyNameHere].png"** The company name following the underscore must be identical to the **"ownerLogo" variable's value** of your project in the **/src/data/projects.js** file.
 
 ### Testing
 
