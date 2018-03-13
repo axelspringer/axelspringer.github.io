@@ -84,7 +84,7 @@ export default [
     }, {
         "title": "axelspringer.github.io",
         "description": "This project is the landing page for the open source initiative of Axel Springer SE",
-        "videoUrl": "https://youtu.be/YAbpmkqn6JE?t=45s",
+        "videoUrl": "https://web.microsoftstream.com/video/ff1de7b8-0e3b-47ed-a490-6067359a964a",
         "ownerId": "axelspringer",
         "ownerUrl": "http://axelspringer.de",
         "ownerLogo": "asideas",
