@@ -11,7 +11,7 @@ export default [
   },{
         "title": "polymorphia",
         "description": "A very fast POJO codec for MongoDB (used in conjunction with the Mongo Java Driver) that handles generic types as well as polymorphic class hierarchies",
-        "videoUrl": "",
+        "videoUrl": "https://web.microsoftstream.com/video/b34195e0-8310-46da-8ecf-6b9f1435c1cf",
         "ownerId": "axelspringer",
         "ownerUrl": "http://bild.de",
         "ownerLogo": "bild",
