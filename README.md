@@ -1,5 +1,7 @@
 # Landing Page - axelspringer.github.io
 
+[![Build Status](https://travis-ci.org/axelspringer/axelspringer.github.io.svg?branch=develop)](https://travis-ci.org/axelspringer/axelspringer.github.io)
+
 ## What this project is all about
 
 [axelspringer.github.io](https://axelspringer.github.io) is the landing page for the open source initiative of Axel Springer SE and provides an overview of Axel Springer’s open source projects as well as current job offers. If you are employed at Axel Springer or one of its subsidiary companies and have created an awesome open source project you’d like to promote and share with your colleagues as well as with people outside the boundaries of Axel Springer, you’re welcome to publish your project on [axelspringer.github.io](https://axelspringer.github.io). For more details on how to add your project to the website or contribute new features, please read the [How to contribute](#how-to-contribute) section.
@@ -15,7 +17,7 @@ For general guidelines and information on how to publish open source projects or
 
 Send PULL-Requests if you want to contribute your ideas and alterations to the project. Please remember to stick to the common code conventions and make sure that your commit messages are self-explanatory.
 
-**Important**: All changes should be made on the dev branch! They will then be integrated into the master branch automatically.
+**Important**: All changes should be made on the **develop** branch! They will then be integrated into the master branch automatically.
 
 ### Present your project on axelspringer.github.io
 
