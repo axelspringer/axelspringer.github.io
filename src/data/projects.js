@@ -1,14 +1,24 @@
 export default [
-  {
-      "title": "baustelle",
-      "description": "Toolkit for deploying to all Amazon infrastructures",
-      "videoUrl": "",
-      "ownerId": "upday",
-      "ownerUrl": "http://upday.com",
-      "ownerLogo": "upday",
-      "projectId": "baustelle",
-      "language": "ruby"
-  },{
+    {
+        "title": "oil.js",
+        "description": "Open Source Opt-In Layer. The Opt-In Layer is a JavaScript library for displaying the user consent dialog.",
+        "videoUrl": "",
+        "ownerId": "as-ideas",
+        "ownerUrl": "http://axelspringerideas.de/",
+        "ownerLogo": "asideas",
+        "projectId": "oil",
+        "language": "js"
+    },
+    {
+        "title": "baustelle",
+        "description": "Toolkit for deploying to all Amazon infrastructures",
+        "videoUrl": "",
+        "ownerId": "upday",
+        "ownerUrl": "http://upday.com",
+        "ownerLogo": "upday",
+        "projectId": "baustelle",
+        "language": "ruby"
+    }, {
         "title": "GraphQL Google PubSub",
         "description": "A graphql subscriptions implementation using Google PubSub and apollo's graphql-subscriptions",
         "videoUrl": "",
@@ -17,7 +27,7 @@ export default [
         "ownerLogo": "bild",
         "projectId": "graphql-google-pubsub",
         "language": "js"
-    },{
+    }, {
         "title": "polymorphia",
         "description": "A very fast POJO codec for MongoDB (used in conjunction with the Mongo Java Driver) that handles generic types as well as polymorphic class hierarchies",
         "videoUrl": "https://web.microsoftstream.com/video/b34195e0-8310-46da-8ecf-6b9f1435c1cf",
@@ -26,7 +36,7 @@ export default [
         "ownerLogo": "bild",
         "projectId": "polymorphia",
         "language": "java"
-    },{
+    }, {
         "title": "crowdsource",
         "description": "a collaborative crowd sourcing and funding tool using virtual currency",
         "videoUrl": "",
@@ -35,7 +45,7 @@ export default [
         "ownerLogo": "asideas",
         "projectId": "crowdsource",
         "language": ""
-    },{
+    }, {
         "title": "Android Material Stepper",
         "description": "This library allows to use Material steppers inside Android applications.",
         "videoUrl": "",
@@ -44,7 +54,7 @@ export default [
         "ownerLogo": "StepStone",
         "projectId": "android-material-stepper",
         "language": "Java"
-    },{
+    }, {
         "title": "Android Material App Rating",
         "description": "This library allows to use customized Rating Dialog inside applications.",
         "videoUrl": "",
@@ -53,7 +63,7 @@ export default [
         "ownerLogo": "StepStone",
         "projectId": "android-material-app-rating",
         "language": "Kotlin"
-    },{
+    }, {
         "title": "SonarQube ColdFusion Plugin",
         "description": "A SonarQube plugin for analyzing ColdFusion code, based on the CFLint library.",
         "videoUrl": "",
@@ -62,7 +72,7 @@ export default [
         "ownerLogo": "StepStone",
         "projectId": "sonar-coldfusion",
         "language": "Java"
-    },{
+    }, {
         "title": "ideas-dash",
         "description": "dashboard / team monitor for software development teams",
         "videoUrl": "",
