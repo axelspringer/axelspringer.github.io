@@ -8,12 +8,18 @@ exports[`ProjectTile component should render as expected 1`] = `
     className="projectTile__heading"
   >
     <a
+      className="projectTile__title"
       href={undefined}
     />
-    <img
-      className="projectTile__logo"
-      src=""
-    />
+    <a
+      href={undefined}
+      target="_blank"
+    >
+      <img
+        className="projectTile__logo"
+        src="/static/logo_undefined.png"
+      />
+    </a>
   </h3>
   <p
     className="projectTile__description"
@@ -21,6 +27,11 @@ exports[`ProjectTile component should render as expected 1`] = `
   <button
     className="projectTile__videoButton"
     onClick={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
   >
     <span
       aria-hidden={true}
@@ -31,71 +42,75 @@ exports[`ProjectTile component should render as expected 1`] = `
         }
       }
     />
-     Erklärvideo
+     Video Presentation
   </button>
   <div
-    className="gitHubStats__container"
-    onClick={[Function]}
+    className="projectTile__content"
   >
     <div
-      className="gitHubStats__stat"
+      className="gitHubStats__container"
+      onClick={[Function]}
     >
-      <p
-        className="gitHubStats__icon"
+      <div
+        className="gitHubStats__stat"
       >
-        <span
-          aria-hidden={true}
-          className="fa fa-code"
+        <p
+          className="gitHubStats__icon"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-code"
+          />
+        </p>
+        <p
+          className="gitHubStats__description"
         />
-      </p>
-      <p
-        className="gitHubStats__description"
-      />
-    </div>
-    <div
-      className="gitHubStats__stat"
-    >
-      <p
-        className="gitHubStats__icon"
+      </div>
+      <div
+        className="gitHubStats__stat"
       >
-        <span
-          aria-hidden={true}
-          className="fa fa-code-fork"
+        <p
+          className="gitHubStats__icon"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-code-fork"
+          />
+        </p>
+        <p
+          className="gitHubStats__description"
         />
-      </p>
-      <p
-        className="gitHubStats__description"
-      />
-    </div>
-    <div
-      className="gitHubStats__stat"
-    >
-      <p
-        className="gitHubStats__icon"
+      </div>
+      <div
+        className="gitHubStats__stat"
       >
-        <span
-          aria-hidden={true}
-          className="fa fa-star"
+        <p
+          className="gitHubStats__icon"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-star"
+          />
+        </p>
+        <p
+          className="gitHubStats__description"
         />
-      </p>
-      <p
-        className="gitHubStats__description"
-      />
-    </div>
-    <div
-      className="gitHubStats__stat"
-    >
-      <p
-        className="gitHubStats__icon"
+      </div>
+      <div
+        className="gitHubStats__stat"
       >
-        <span
-          aria-hidden={true}
-          className="fa fa-users"
+        <p
+          className="gitHubStats__icon"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-users"
+          />
+        </p>
+        <p
+          className="gitHubStats__description"
         />
-      </p>
-      <p
-        className="gitHubStats__description"
-      />
+      </div>
     </div>
   </div>
 </div>
